@@ -1,6 +1,6 @@
 # ICS Easy for Windows
 
-ICS Easy is an offline incident forms application for Windows. This public repository provides installer downloads and instructions. The application source remains private.
+ICS Easy is an offline Windows application for ham radio (amateur radio) net control operators. Log station traffic and print it on ICS forms. This public repository provides installer downloads and instructions. The application source remains private.
 
 ## Download and install
 
