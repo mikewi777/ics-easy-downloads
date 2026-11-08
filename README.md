@@ -9,9 +9,15 @@ ICS Easy is an offline Windows application for ham radio (amateur radio) net con
 3. Optionally download **SHA256SUMS.txt** and compare the installer's SHA-256 checksum before running it. This is the current checksum; **SHA256SUMS-original-filename.txt** is historical and is not needed for the current download.
 4. Run the installer on Windows x64 and follow its prompts.
 
-The installer is **unsigned** and this is a **pre-release/local-review build**, not a fully validated production release. Windows may show an unknown-publisher or SmartScreen warning. Only install if you trust the source and have verified the download. Clean-machine testing and code signing have not been completed.
+The installer is **unsigned** and this is a **pre-release/local-review build**, not a fully validated production release. Windows may show an unknown-publisher or SmartScreen warning. Only install if you trust the source and have verified the download. Code signing has not been completed.
 
 GitHub also generates "Source code" ZIP and tar.gz links. Those archives contain this repository's documentation, not the ICS Easy application source or Windows installer.
+
+## Clean Windows 11 validation
+
+Tested on a fresh Windows 11 virtual machine using the public installer. The installer's SHA-256 checksum verification, installation and launch, reopening offline, sample data persistence, and red-X shutdown checks passed. An unsigned-download warning was observed in Microsoft Edge.
+
+This validation covers those specific checks on that Windows 11 VM. It does not cover uninstall, all hardware configurations, or comprehensive form testing. The installer remains unsigned and the release remains a pre-release.
 
 ## Version 1.5.3
 
