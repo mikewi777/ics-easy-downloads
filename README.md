@@ -5,8 +5,8 @@ ICS Easy is an offline incident forms application for Windows. This public repos
 ## Download and install
 
 1. Open [Releases](https://github.com/mikewi777/ics-easy-downloads/releases).
-2. Choose **ICS Easy 1.5.3 - Windows review build** and download **ICS-Easy-1.5.3-Windows-x64-Setup-LOCAL-REVIEW.exe** from Assets.
-3. Optionally download **SHA256SUMS.txt** and compare the installer's SHA-256 checksum before running it.
+2. Choose **ICS Easy 1.5.3 - Windows review build** and download **ICS-Easy-1.5.3-Windows-x64-Setup.exe** from Assets.
+3. Optionally download **SHA256SUMS.txt** and compare the installer's SHA-256 checksum before running it. This is the current checksum; **SHA256SUMS-original-filename.txt** is historical and is not needed for the current download.
 4. Run the installer on Windows x64 and follow its prompts.
 
 The installer is **unsigned** and this is a **pre-release/local-review build**, not a fully validated production release. Windows may show an unknown-publisher or SmartScreen warning. Only install if you trust the source and have verified the download. Clean-machine testing and code signing have not been completed.
